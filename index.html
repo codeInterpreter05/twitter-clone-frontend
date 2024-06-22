@@ -9,10 +9,11 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
     <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-black text-white">
-    <div class="flex container-fluid mx-auto my-4">
-        <div class="first w-[50%] flex-col justify-center align-center">
+    <div class="flex container-fluid mx-auto">
+        <div class="first w-[50%] flex-col justify-center align-center py-4">
           <div class="logo invert flex justify-start w-[80%] px-5 py-2 mx-auto">
             <svg
             viewBox="0 0 24 24"
@@ -78,8 +79,160 @@
             </div>
           </div>
         </div>
-        <div class="second w-full border border-x-white border-y-black"></div>
-        <div class="third w-full"></div>
+
+        <div class="second flex-col w-[100%] items-center justify-center border-x border-x-[#70757A] py-4">
+          <div class="middle-navbar w-full flex justify-evenly gap-16 items-center mt-2 border-b border-b-[#70757A]">
+            <span class="for-you w-auto border-b-[5px] border-b-[#1A8CD8] text-xl font-bold pb-3">For you</span>
+            <span class="following text-xl text-[#70757A] pb-3">Following</span>
+          </div>
+          <div class="user-post flex-col justify-evenly p-4 border-b border-b-[#70757A]">
+            <div class="top-post flex justify-start gap-3 items-center mb-12">
+              <img src="./images/profile.png" alt="" class="h-12 w-12 rounded-3xl">
+              <span class="text-2xl text-[#70757A]">What is happening?!</span>
+            </div>
+            <div class="middle-post flex justify-between items-center px-5 my-6">
+              <div class="post-icons px-10 text-[#1D9BF0] flex justify-center gap-2">
+                <span class="material-symbols-outlined text-3xl ">photo</span>
+                <span class="material-symbols-outlined text-3xl ">gif</span>
+                <span class="material-symbols-outlined text-3xl ">poll</span>
+                <span class="material-symbols-outlined text-3xl ">sentiment_very_satisfied</span>
+                <span class="material-symbols-outlined text-3xl ">schedule</span>
+                <span class="material-symbols-outlined text-3xl ">place</span>
+              </div>
+              <button class="post-btn bg-[#1A8CD8] px-5 py-2 font-bold text-xl rounded-full">Post</button>
+            </div>
+            <div class="bottom-post flex justify-center items-center text-xl text-[#1D9BF0]">
+              Show 135 posts
+            </div>
+          </div>
+          <div class="posts flex-col justify-center items-center w-[100%]">
+            <div class="post flex-col justify-center items-center w-[100%] border-b border-b-[#70757A] pt-1">
+              <div class="post-content p-3 w-[100%] flex justify-between items-start">
+                <div class="user-pic flex justify-start items-start w-[8%]">
+                  <img src="./images/user1.jpg" alt="" class="h-12 width-12 rounded-3xl">
+                </div>
+                <div class="content w-[92%]">
+                  <div class="user-details flex justify-between items-center">
+                    <div class="flex justify-between gap-1.5 items-center">
+                      <span class="text-xl font-bold">Nidhi</span>
+                      <span class="text-[#70757A] text-xl">@jfmdgaf · 37m</span>
+                    </div>
+                    <span class="material-symbols-outlined text-[#70757A] font-bold">more_horiz</span>
+                  </div>
+                  <div class="user-tweet text-xl w-[94%]">
+                    aaj rohit kisse out hoyega? taskin? fizz? tanzim? shakib?
+                  </div>
+                </div>
+              </div>
+              <div class="interactions text-xl text-[#70757A] flex justify-between items-center w-[90%] ml-16 my-3 px-1">
+                <div class="flex justify-between items-center gap-1">
+                  <span class="material-symbols-outlined pt-1.5">chat </span> 18
+                </div>
+                <div class="flex justify-between items-center gap-1">
+                  <span class="material-symbols-outlined pt-1">repeat </span> 18
+                </div>
+                <div class="flex justify-between items-center gap-1">
+                  <span class="material-symbols-outlined pt-1">favorite </span> 18
+                </div>
+                <div class="flex justify-between items-center gap-1">
+                  <span class="material-symbols-outlined pt-1">poll </span> 18
+                </div>
+                <div class="flex justify-center items-center gap-2">
+                  <span class="material-symbols-outlined">bookmark</span>
+                  <span class="material-symbols-outlined">share</span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="post flex-col justify-center items-center w-[100%] border-b border-b-[#70757A] pt-1">
+              <div class="post-content p-3 w-[100%] flex justify-between items-start">
+                <div class="user-pic flex justify-start items-start w-[8%]">
+                  <img src="./images/user2.jpg" alt="" class="h-12 width-12 rounded-3xl">
+                </div>
+                <div class="content w-[92%]">
+                  <div class="user-details flex justify-between items-center">
+                    <div class="flex justify-between gap-1.5 items-center">
+                      <span class="text-xl font-bold">POTT765</span>
+                      <span class="text-[#70757A] text-xl">@KlolZone · 57m</span>
+                    </div>
+                    <span class="material-symbols-outlined text-[#70757A] font-bold">more_horiz</span>
+                  </div>
+                  <div class="user-tweet text-xl w-[94%]">
+                    Not a crybaby to cry on a cricketer's onfield aggression like a coward but
+                    Tanzim Hasan, you've messed with wrong man
+                  </div>
+                </div>
+              </div>
+              <div class="post-image w-[90%] flex justify-center items-center mx-auto px-8 py-4">
+                <img src="./images/user2-post.jfif" alt="" class="rounded-2xl">
+              </div>
+              <div class="interactions text-xl text-[#70757A] flex justify-between items-center w-[90%] ml-16 my-3 px-1">
+                <div class="flex justify-between items-center gap-1">
+                  <span class="material-symbols-outlined pt-1.5">chat </span> 18
+                </div>
+                <div class="flex justify-between items-center gap-1">
+                  <span class="material-symbols-outlined pt-1">repeat </span> 18
+                </div>
+                <div class="flex justify-between items-center gap-1">
+                  <span class="material-symbols-outlined pt-1">favorite </span> 18
+                </div>
+                <div class="flex justify-between items-center gap-1">
+                  <span class="material-symbols-outlined pt-1">poll </span> 18
+                </div>
+                <div class="flex justify-center items-center gap-2">
+                  <span class="material-symbols-outlined">bookmark</span>
+                  <span class="material-symbols-outlined">share</span>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="post flex-col justify-center items-center w-[100%] border-b border-b-[#70757A] pt-1">
+              <div class="post-content p-3 w-[100%] flex justify-between items-start">
+                <div class="user-pic flex justify-start items-start w-[8%]">
+                  <img src="./images/user3.jpg" alt="" class="h-12 width-12 rounded-3xl">
+                </div>
+                <div class="content w-[92%]">
+                  <div class="user-details flex justify-between items-center">
+                    <div class="flex justify-between gap-1.5 items-center">
+                      <span class="text-xl font-bold">ANI</span>
+                      <span class="text-[#70757A] text-xl">@B1shh_ · 4h</span>
+                    </div>
+                    <span class="material-symbols-outlined text-[#70757A] font-bold">more_horiz</span>
+                  </div>
+                  <div class="user-tweet text-xl w-[94%]">
+                    <span class="text-[#1D9BF0]">#BREAKING</span> | Former Indian cricketer Sunil Gavaskar has passed by a grocery story in Antigua today early in the morning
+                  </div>
+                </div>
+              </div>
+              <div class="post-image w-[90%] flex justify-center items-center mx-auto px-8 py-4">
+                <img src="./images/user3-post.jfif" alt="" class="rounded-2xl">
+              </div>
+              <div class="interactions text-xl text-[#70757A] flex justify-between items-center w-[90%] ml-16 my-3 px-1">
+                <div class="flex justify-between items-center gap-1">
+                  <span class="material-symbols-outlined pt-1.5">chat </span> 18
+                </div>
+                <div class="flex justify-between items-center gap-1">
+                  <span class="material-symbols-outlined pt-1">repeat </span> 18
+                </div>
+                <div class="flex justify-between items-center gap-1">
+                  <span class="material-symbols-outlined pt-1">favorite </span> 18
+                </div>
+                <div class="flex justify-between items-center gap-1">
+                  <span class="material-symbols-outlined pt-1">poll </span> 18
+                </div>
+                <div class="flex justify-center items-center gap-2">
+                  <span class="material-symbols-outlined">bookmark</span>
+                  <span class="material-symbols-outlined">share</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+        <div class="third w-[70%]"></div>
     </div>
 </body>
 </html>
