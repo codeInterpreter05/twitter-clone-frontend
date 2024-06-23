@@ -1,0 +1,55 @@
+@media screen and (max-width: 1280px) {
+    .side-bar-nav-title, .user-details, .user-more, .post-button-title{
+        display: none;
+    }
+
+    .first{
+        width: 15%;
+    }
+
+    .post-button{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
+
+    .side-bar > ul{
+        align-items: center;
+    }
+
+    .logo{
+        margin-left: 1rem;
+    }
+
+    .search-bar, .subscribe, .trending, .follow, .footer{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px){
+    .third{
+        display: none;
+    }
+
+    .logo{
+        margin-left: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-profile-link{
+        justify-content: center;
+    }
+
+    .content{
+        margin-left: 20px;
+    }
+
+    .interactions{
+        margin-left: 44px;
+    }
+
+    
+}
